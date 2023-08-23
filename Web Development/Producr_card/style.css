@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: #f2ebe3;
+}
+.card{
+    /* now to bring the text on the side use flex */
+    display: flex;
+    height: 350px;
+    width: 600px;
+    position: fixed;
+    top: 28%;
+    left: 28%;
+    margin: 1em 2em;
+    border-radius: 1.5em;
+    background-color: #fff;
+}
+.card img{
+    border-radius: 1.5em 0 0 1.5em;
+    height: 100%;
+    width: 40%;
+}
+section{
+    width: 45%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    text-align: left;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    color: #70768f;
+    letter-spacing: 5px;
+    margin: 1em 0;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0.6em 0 0.7em 0;
+    line-height: 1em;
+}
+p{
+    color: #70768f;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1.5em;
+    font-size: 16px;
+}
+#pr{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button img{
+    height: 15px;
+    width: 15px;
+}
+.button{
+    
+    margin-left: 10%; 
+    padding: 0.2em 0;
+    cursor: pointer;
+    background-color: green;
+    height: 30px;
+    width: 70%;
+    text-align: center;
+    color: white;
+    border-radius: 0.5em;
+}

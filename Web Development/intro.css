@@ -1,0 +1,42 @@
+/* styling whole tag in code */
+ h1{
+    color: red;
+    background-color: black; 
+    height: 50px;
+    width: 200px;
+    padding: 25px;
+    margin: 12px;
+    border: 12px solid yellow;
+}
+h2{
+    color: blue;
+}
+/* styling using classes */
+.imp{
+   font-size: larger;
+   color: black;
+   background-color: yellow;
+ }
+  /* styling using id */
+ #button1{
+   color: yellow;
+   background-color: red;
+ }
+  /* changing color of button when hovering over it, but styling and color changing of button cannot be done together in HTML */
+  /* button:hover{
+    color: blue;
+  } */
+  /* changing color of link when hovering over it */
+  /* if we want to do the same using class or id then we can do so using same code .id_name:hover{} or #class_name:hover{} hover is pseudo
+  class selector more can be find on mdn or on google */
+ a:hover{
+   color: black;
+ }
+ /* to use box in html */
+ .box{
+    height: 100px;
+    width: 200px;
+    border: 10px solid red;
+    margin: 12px  ;
+    padding: 25px  ;
+ }

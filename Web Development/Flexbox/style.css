@@ -1,0 +1,39 @@
+.container{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    align-content: flex-end;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: aqua;
+    /* increase width */
+    /* flex-grow: 1;  */
+    /* if you want to shrink the boxes when 
+    window is suppressed and wrap is not applied */
+    flex-shrink: 4;
+    /* flex-basis: 100px; will make width 100px but also deal with the
+    overflow of content and increse width wrt it  */
+}
+#b2{
+    order: 1;
+    /* flex-shrink can be applied to a particular box also */
+}
+#b3{
+    order: 8;
+    flex-grow: 1;
+}
+#b1{
+    order: 4;
+}
+#b4{
+    order: 5;
+}
