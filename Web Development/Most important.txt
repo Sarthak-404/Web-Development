@@ -1,4 +1,0 @@
-Use mdn to know all apllications and code because we can't remember everything in development.
-mdn is a site 
-mdn css
-mdn html
